@@ -3,7 +3,7 @@ from random import *
 answer = raw_input("Do you wanna play [Y/N] : ")
 guessnumber = randint(1, 15)
 
-while (answer == "Y"):
+while (answer == "Y" or "y" or "yes"):
     userguess = int(raw_input("Guess a number: ")) 
     if userguess < guessnumber:
         print ("Little Higher")
